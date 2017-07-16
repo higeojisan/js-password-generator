@@ -15,6 +15,14 @@
   var numbers = [0,1,2,3,4,5,6,7,8,9];
   var symbols = ['/', '*', '-', '+', '.', '!', '#', '$', '@', '%', '&', '(', ')'];
 
+  // 初回読み込み時に8文字、英字(大文字)、英字(小文字)、数字で表示する
+  var default_elements = [];
+  Array.prototype.push.apply(default_elements, large_alphabets);
+  Array.prototype.push.apply(default_elements, small_alphabets);
+  Array.prototype.push.apply(default_elements, numbers);
+  var default_password = generatePassword(8, default_elements);
+  input.value = default_password;
+
   // 文字数の取得
   function getWordCount() {
     var word_count = word_count_ele.value;
