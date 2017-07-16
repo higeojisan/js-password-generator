@@ -14,7 +14,7 @@ input[type="text"] {
 }
 
 #btn {
-  margin: 30px auto;
+  margin: 10px auto;
   width: 250px;
   height: 30px;
   line-height: 30px;
@@ -28,4 +28,9 @@ input[type="text"] {
 
 #btn:hover {
   opacity: 0.8;
+}
+
+fieldset {
+  width: 300px;
+  margin: 20px auto;
 }
