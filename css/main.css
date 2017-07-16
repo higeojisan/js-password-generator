@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background: #e0e0e0;
+  font-family: 'Courier New', sans-serif;
+}
+
+input[type="text"] {
+  margin: 30px auto;
+  width: 200px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#btn {
+  margin: 30px auto;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background: #00aaff;
+  box-shadow: 0 4px 0 #0088cc;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#btn:hover {
+  opacity: 0.8;
+}
