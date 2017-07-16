@@ -78,4 +78,8 @@
     var password = generatePassword(word_count, generateElements);
     input.value = password;
   });
+
+  input.addEventListener('click', function() {
+    this.select();
+  })
 })();
